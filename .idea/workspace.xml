@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="membuat project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/oliviadafina/Sistem-Kalkulasi-Zakat.git",
+    "url": "https://github.com/oliviadfna/Sistem-Kalkulasi-Zakat.git",
     "accountId": "5acbcd76-11ee-4b9b-8b3d-146a616b7d66"
   }
 }]]></component>
@@ -58,7 +60,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715850712041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="membuat project">
+      <option name="closed" value="true" />
+      <created>1715851289604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715851289604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
