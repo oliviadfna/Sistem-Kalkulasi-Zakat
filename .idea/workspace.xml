@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="tambah class Zakat Pertanian, Zakat Peternakan,History Zakat" />
+    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="tambah class Zakat Pertanian, Zakat Peternakan,History Zakat">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatEmasPerak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatEmasPerak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPenghasilan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPenghasilan.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +42,9 @@
     &quot;accountId&quot;: &quot;5acbcd76-11ee-4b9b-8b3d-146a616b7d66&quot;
   }
 }</component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
