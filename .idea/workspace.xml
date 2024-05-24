@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="perbaikan kode di class zakat, ZakatFitrah, ZakatPenghasilan,ZakatEmasPerak">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HistoryZakat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HistoryZakat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/Zakat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatEmasPerak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatEmasPerak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatFitrah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPenghasilan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPenghasilan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPertanian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPertanian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPeternakan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/ZakatPeternakan.java" afterDir="false" />
-    </list>
+    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="perbaikan kode di class class zakat dan menghapus class hello controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,13 +114,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715856581685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="perbaikan kode di class class zakat dan menghapus class hello controller">
+      <option name="closed" value="true" />
+      <created>1716571353043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716571353044</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="membuat project" />
     <MESSAGE value="tambah class Zakat Pertanian, Zakat Peternakan,History Zakat" />
     <MESSAGE value="perbaikan kode di class zakat, ZakatFitrah, ZakatPenghasilan,ZakatEmasPerak" />
-    <option name="LAST_COMMIT_MESSAGE" value="perbaikan kode di class zakat, ZakatFitrah, ZakatPenghasilan,ZakatEmasPerak" />
+    <MESSAGE value="perbaikan kode di class class zakat dan menghapus class hello controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="perbaikan kode di class class zakat dan menghapus class hello controller" />
   </component>
 </project>
