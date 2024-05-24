@@ -1,5 +1,6 @@
 package com.tubes.kalkulasizakat;
-import java.util.Date;
+
+import java.time.LocalDate;
 
 class ZakatEmasdanPerak extends Zakat{
     private static final double nisabEmas = 85; //gram
@@ -7,8 +8,8 @@ class ZakatEmasdanPerak extends Zakat{
     private double jumlahEmas_Gram;
     private double jumlahPerak_Gram;
 
-    public ZakatEmasdanPerak(String nama, Date tanggal, double jumlahEmas_Gram, double jumlahPerak_Gram) {
-        super(nama,tanggal);
+    public ZakatEmasdanPerak(String nama, LocalDate tanggal, double jumlahEmas_Gram, double jumlahPerak_Gram) {
+        super(nama,tanggal,"Zakat Emas dan Perak");
         this.jumlahEmas_Gram = jumlahEmas_Gram;
         this.jumlahPerak_Gram = jumlahPerak_Gram;
     }

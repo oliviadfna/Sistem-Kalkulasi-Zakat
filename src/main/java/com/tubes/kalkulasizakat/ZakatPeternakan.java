@@ -1,6 +1,5 @@
 package com.tubes.kalkulasizakat;
-
-import java.util.Date;
+import java.time.LocalDate;
 
 class ZakatPeternakan extends Zakat{
     private static final double nisabKambingDomba = 40;
@@ -8,8 +7,8 @@ class ZakatPeternakan extends Zakat{
     private double jumlahKambingDanDomba;
     private double jumlahSapi;
 
-    public ZakatPeternakan(String nama, Date tanggal, double jumlahKambingDanDomba, double jumlahSapi) {
-        super(nama, tanggal);
+    public ZakatPeternakan(String nama, LocalDate tanggal, double jumlahKambingDanDomba, double jumlahSapi) {
+        super(nama, tanggal, "Zakat Peternakan");
         this.jumlahKambingDanDomba = jumlahKambingDanDomba;
         this.jumlahSapi = jumlahSapi;
     }

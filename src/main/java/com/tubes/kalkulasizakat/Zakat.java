@@ -1,13 +1,15 @@
 package com.tubes.kalkulasizakat;
-import java.util.Date;
+import java.time.LocalDate;
 
 abstract class Zakat {
     private String nama;
-    private Date tanggal;
+    private LocalDate tanggal;;
+    private String jenisZakat;
 
-    public Zakat(String nama, Date tanggal){
+    public Zakat(String nama, LocalDate tanggal, String jenisZakat){
         this.nama = nama;
         this.tanggal = tanggal;
+        this.jenisZakat = jenisZakat;
     }
 
     public abstract int hitungZakat();
@@ -18,10 +20,13 @@ abstract class Zakat {
     public void setNama(String nama){
         this.nama = nama;
     }
-    public Date getTanggal(){
+    public LocalDate getTanggal(){
         return tanggal;
     }
-    public void setTanggal(Date tanggal){
+    public void setTanggal(LocalDate tanggal){
         this.tanggal = tanggal;
+    }
+    public String getJenisZakat() {
+        return jenisZakat;
     }
 }

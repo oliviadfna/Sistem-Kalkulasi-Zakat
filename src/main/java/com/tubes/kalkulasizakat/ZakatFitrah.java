@@ -1,13 +1,13 @@
 package com.tubes.kalkulasizakat;
-import java.util.Date;
+import java.time.LocalDate;
 
 class ZakatFitrah extends Zakat {
     private static final double beratBeras = 2.5; // kg
-    private static final double hargaBeras = 20000; // rupiah
+    private static final double hargaBeras = 18000; // rupiah
     private int jumlahOrang;
 
-    public ZakatFitrah(String nama, Date tanggal, int jumlahOrang) {
-        super(nama, tanggal);
+    public ZakatFitrah(String nama, LocalDate tanggal, int jumlahOrang) {
+        super(nama, tanggal, "Zakat Fitrah");
         this.jumlahOrang = jumlahOrang;
     }
 

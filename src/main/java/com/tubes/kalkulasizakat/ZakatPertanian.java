@@ -1,13 +1,12 @@
 package com.tubes.kalkulasizakat;
-
-import java.util.Date;
+import java.time.LocalDate;
 
 class ZakatPertanian extends Zakat {
     private static final double nisabPerTahun = 750;
     private double hasilPanen;
 
-    public ZakatPertanian(String nama, Date tanggal, double hasilPanen) {
-        super(nama, tanggal);
+    public ZakatPertanian(String nama, LocalDate tanggal, double hasilPanen) {
+        super(nama, tanggal, "Zakat Pertanian");
         this.hasilPanen = hasilPanen;
     }
 
