@@ -1,4 +1,4 @@
-package org.example.demo;
+package com.tubes.kalkulasizakat;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
