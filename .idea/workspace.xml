@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="perbaikan kode di class class zakat dan menghapus class hello controller">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tubes/kalkulasizakat/HistoryZakat.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tubes/kalkulasizakat/Penghasilan.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tubes/kalkulasizakat/Pertanian.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tubes/kalkulasizakat/Peternakan.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="Membuat UI Penghasilan, Pertanian, Peternakan, dan history zakat" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +64,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -135,17 +127,37 @@
       <option name="project" value="LOCAL" />
       <updated>1716571353044</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Membuat UI Penghasilan, Pertanian, Peternakan, dan history zakat">
+      <option name="closed" value="true" />
+      <created>1716883081107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716883081107</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="membuat project" />
     <MESSAGE value="tambah class Zakat Pertanian, Zakat Peternakan,History Zakat" />
     <MESSAGE value="perbaikan kode di class zakat, ZakatFitrah, ZakatPenghasilan,ZakatEmasPerak" />
     <MESSAGE value="perbaikan kode di class class zakat dan menghapus class hello controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="perbaikan kode di class class zakat dan menghapus class hello controller" />
+    <MESSAGE value="Membuat UI Penghasilan, Pertanian, Peternakan, dan history zakat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Membuat UI Penghasilan, Pertanian, Peternakan, dan history zakat" />
   </component>
 </project>
