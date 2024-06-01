@@ -13,6 +13,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class HistoryController {
@@ -59,6 +60,8 @@ public class HistoryController {
     private Zakat zakat1;
     private Zakat zakat2;
 
+    private final DecimalFormat decimalFormat = new DecimalFormat("#,###");
+
     @FXML
     void handleCari() {
         String namaOrang = nama.getText();
@@ -92,21 +95,21 @@ public class HistoryController {
 
     private String formatJumlahZakat(Zakat zakat) {
         if (zakat instanceof ZakatFitrah) {
-            return "Rp. " + zakat.hitungZakat() + " rupiah";
+            return "Rp. " + decimalFormat.format(zakat.hitungZakat()) + " rupiah";
         } else if (zakat instanceof ZakatEmasdanPerak) {
             ZakatEmasdanPerak zakatEmasdanPerak = (ZakatEmasdanPerak) zakat;
-            return "Zakat Emas: " + zakatEmasdanPerak.hitungZakatEmas() + " gram \nZakat Perak: " + zakatEmasdanPerak.hitungZakatPerak() + " gram";
+            return "Zakat Emas: " + decimalFormat.format(zakatEmasdanPerak.hitungZakatEmas()) + " gram \nZakat Perak: " + decimalFormat.format(zakatEmasdanPerak.hitungZakatPerak()) + " gram";
         } else if (zakat instanceof ZakatPertanian) {
             ZakatPertanian zakatPertanian = (ZakatPertanian) zakat;
-            return zakatPertanian.hitungZakat() + " Kg";
+            return decimalFormat.format(zakatPertanian.hitungZakat()) + " Kg";
         } else if (zakat instanceof ZakatPenghasilan) {
             ZakatPenghasilan zakatPenghasilan = (ZakatPenghasilan) zakat;
-            return "Rp. " + zakatPenghasilan.hitungZakat() + " Rupiah ";
+            return "Rp. " + decimalFormat.format(zakatPenghasilan.hitungZakat()) + " Rupiah ";
         } else if (zakat instanceof ZakatPeternakan) {
             ZakatPeternakan zakatPeternakan = (ZakatPeternakan) zakat;
-            return "Zakat Kambing/Domba : " + zakatPeternakan.hitungZakatKambingDomba() + " Ekor \nZakat Sapi: " + zakatPeternakan.hitungZakatSapi() + " Ekor";
+            return "Zakat Kambing/Domba : " + decimalFormat.format(zakatPeternakan.hitungZakatKambingDomba()) + " Ekor \nZakat Sapi: " + decimalFormat.format(zakatPeternakan.hitungZakatSapi()) + " Ekor";
         } else {
-            return "Rp. " + zakat.hitungZakat() + " rupiah";
+            return "Rp. " + decimalFormat.format(zakat.hitungZakat()) + " rupiah";
         }
     }
 

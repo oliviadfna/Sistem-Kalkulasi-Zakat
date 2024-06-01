@@ -1,5 +1,6 @@
 package com.tubes.kalkulasizakat;
 
+import java.text.DecimalFormat;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -71,7 +72,9 @@ public class PenghasilanController {
 
             HistoryZakat.getInstance().addZakat(zakatPenghasilan);
 
-            hasilZakat.setText("Rp. " + jumlahZakat + " rupiah");
+            DecimalFormat formatter = new DecimalFormat("#,###");
+            String Jumlah = formatter.format(jumlahZakat);
+            hasilZakat.setText("Rp. " + Jumlah + " rupiah");
         } catch (NumberFormatException e) {
             hasilZakat.setText("Penghasilan harus berupa angka.");
         } catch (Exception e) {

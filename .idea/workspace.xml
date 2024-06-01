@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292d6d98-4236-4aa3-bf7a-7a1b7f6ea5f9" name="Changes" comment="membuat Fitrah Controller">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_05_2024_17_46__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/EmasPerakController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/EmasPerakController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/FitrahController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/FitrahController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PenghasilanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PenghasilanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PertanianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PertanianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PeternakanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tubes/kalkulasizakat/PeternakanController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/oliviadfna/Sistem-Kalkulasi-Zakat.git",
-    "accountId": "fba43b52-0d2a-4e96-a3f3-713831e9b15b"
+    "accountId": "cd6106d2-2b7d-43e0-b8ed-aa5ecf7235a3"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -55,10 +62,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Gradle.Sistem-Kalkulasi-Zakat [:HelloApplication.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/zakatbaru",
+    "last_opened_file_path": "D:/.resume/Anime collections/TUGAS ITK/Screenshot ITK/tesxakat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +76,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,6 +84,22 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Tubes PBO B\src\main\resources\com\tubes\kalkulasizakat\Assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tubes.kalkulasizakat.HelloApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tubes.kalkulasizakat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">

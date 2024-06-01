@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.time.LocalDate;
 
 public class PeternakanController {
@@ -71,9 +72,12 @@ public class PeternakanController {
 
             HistoryZakat.getInstance().addZakat(zakatPeternakan);
 
-            hasilZakat.setText("Zakat Kambing/Domba: " + zakatKambingDomba + " Ekor\nZakat Sapi: " + zakatSapi + " Ekor");
+            DecimalFormat formatter = new DecimalFormat("#,###");
+            String FzakatKambingDomba = formatter.format(zakatKambingDomba);
+            String FzakatSapi = formatter.format(zakatSapi);
+            hasilZakat.setText("Zakat Kambing/Domba: " + FzakatKambingDomba + " Ekor\nZakat Sapi: " + FzakatSapi + " Ekor");
         } catch (NumberFormatException e) {
-            hasilZakat.setText("Jumlah emas dan perak harus berupa angka.");
+            hasilZakat.setText("Jumlah Kambing/Domba dan Sapi harus berupa Angka!.");
         } catch (Exception e) {
             e.printStackTrace();
             hasilZakat.setText("Terjadi kesalahan dalam perhitungan zakat.");

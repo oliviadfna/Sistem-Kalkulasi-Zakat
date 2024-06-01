@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+
+import java.text.DecimalFormat;
 import java.time.LocalDate;
 import javafx.stage.Stage;
 import javafx.scene.control.DatePicker;
@@ -71,7 +73,10 @@ public class FitrahController {
 
             HistoryZakat.getInstance().addZakat(zakatFitrah);
 
-            hasilZakat.setText("Rp. " + jumlahZakat + " rupiah");
+            DecimalFormat formatter = new DecimalFormat("#,###");
+            String formattedZakat = formatter.format(jumlahZakat);
+
+            hasilZakat.setText("Rp. " + formattedZakat + " rupiah");
         } catch (NumberFormatException e) {
             hasilZakat.setText("Jumlah orang harus berupa angka.");
         } catch (Exception e) {

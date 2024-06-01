@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.time.LocalDate;
 
 public class PertanianController {
@@ -63,7 +64,9 @@ public class PertanianController {
 
             HistoryZakat.getInstance().addZakat(zakatPertanian);
 
-            hasilZakat.setText("Zakat Pertanian: " + jumlahZakat + " Kg");
+            DecimalFormat formatter = new DecimalFormat("#,###");
+            String JumlahHasilTani = formatter.format(jumlahZakat);
+            hasilZakat.setText("Zakat Pertanian: " + JumlahHasilTani + " Kg");
         } catch (NumberFormatException e) {
             hasilZakat.setText("Hasil panen harus berupa angka.");
         } catch (Exception e) {
